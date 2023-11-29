@@ -2,7 +2,7 @@
 
 ### Project Description:
 
-This GitHub project is a Python-based Telegram News Bot. It fetches news articles based on user-specified keywords and delivers them to users. The bot uses the Telegram Bot API, GNews API, and Python libraries for functionality.
+A Python-based Telegram News Bot. It fetches news articles based on user-specified keywords and delivers them to users. The bot uses the Telegram Bot API, GNews API, and Python libraries for functionality.
 
 ### Features:
 - **Keyword-Based News Retrieval**: Users can request news articles by sending a command with a keyword. The bot fetches the latest news related to the keyword.
