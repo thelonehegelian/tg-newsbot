@@ -4,6 +4,10 @@
 
 A Python-based Telegram News Bot. It fetches news articles based on user-specified keywords and delivers them to users. The bot uses the Telegram Bot API, GNews API, and Python libraries for functionality.
 
+### TODO
+
+- [ ] add Redis for message queue 
+
 ### Features:
 - **Keyword-Based News Retrieval**: Users can request news articles by sending a command with a keyword. The bot fetches the latest news related to the keyword.
 
