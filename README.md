@@ -6,7 +6,9 @@ A Python-based Telegram News Bot. It fetches news articles based on user-specifi
 
 ### TODO
 
-- [ ] add Redis for message queue 
+- [ ] add Redis for message queue handling
+- [ ] allow users to choose publications
+- [ ] handle empty response (if the keyword does not return any news)
 
 ### Features:
 - **Keyword-Based News Retrieval**: Users can request news articles by sending a command with a keyword. The bot fetches the latest news related to the keyword.
@@ -31,6 +33,21 @@ A Python-based Telegram News Bot. It fetches news articles based on user-specifi
 4. Install dependencies with `pip install -r requirements.txt`.
 5. Run the bot script (`bot.py`) to start the Telegram bot.
 6. Interact with the bot by sending commands like "/start", "/news [keyword]", and "/help" in your Telegram chat.
+
+## How to use with with Docker Compose
+
+- it will create and start the container in detached mode:
+
+```bash
+docker-compose up -d
+```
+
+- Stop and remove the container:
+  
+```
+docker-compose down
+```
+
 
 
 ## How to Use (with Docker):
